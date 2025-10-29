@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Forcefully set the shell to /bin/zsh
+# Since distrobox passes the `--shell` flag, this is the only way to override
+/bin/useradd "$@" --shell /bin/zsh 

@@ -1,0 +1,4 @@
+
+# Add static text to the ZSH prompt to indicate that
+# this shell is running in a container.
+zstyle ':prompt:grml:left:items:host' post '📦 '
